@@ -1,0 +1,83 @@
+/* 🔹 Navbar Mejorado */
+.navbar {
+    background: linear-gradient(to right, #2c3e50, #4b6cb7); /* Degradado bonito */
+    padding: 15px 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease-in-out;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white !important;
+    letter-spacing: 1px;
+}
+
+.navbar-toggler {
+    border: none;
+    outline: none;
+}
+
+.navbar-toggler-icon {
+    filter: brightness(0) invert(1); /* Hace que el ícono sea blanco */
+}
+
+.navbar-nav .nav-item {
+    margin: 0 15px;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffcc00 !important; /* Color amarillo al pasar el mouse */
+}
+
+/* 🔹 Banner Principal */
+.banner {
+    background-image: url('img/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.title {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+.banner .btn {
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    transition: background 0.3s ease;
+}
+
+.banner .btn:hover {
+    background-color: #ff4500;
+}
+
+/* 🔹 Sección de Sinopsis */
+#sinopsis img {
+    border-radius: 10px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* 🔹 Carrusel */
+#galeria {
+    text-align: center;
+}
+
+.carousel-inner img {
+    border-radius: 10px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+}
