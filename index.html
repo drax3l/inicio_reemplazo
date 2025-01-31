@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="blue-background">
 
     <!-- 🔹 Navbar fijo superior -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
@@ -61,7 +61,7 @@
                 <p>Entramos en el mundo Avatar de la mano de Jake Sully, un ex-Marine en silla de ruedas, que ha sido reclutado para viajar a Pandora, donde existe un mineral raro y muy preciado que puede solucionar la crisis energética existente en la Tierra.</p>
             </div>
             <div class="col-md-6">
-                <img src="img/poster.jpg" class="img-fluid rounded shadow" alt="Poster de la película">
+                <img src="img/poster.jpg" class="img-fluid rounded shadow poster-frame" alt="Poster de la película">
             </div>
         </div>
     </section>
@@ -88,6 +88,7 @@
                 <span class="carousel-control-next-icon"></span>
             </button>
         </div>
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000"></div>
     </section>
 
     <!-- 🔹 Sección de Contacto -->
@@ -95,7 +96,7 @@
         <h2 class="text-center">Contáctanos</h2>
         <div class="row justify-content-center">
             <div class="col-md-6">
-                <form>
+                <form class="contact-frame">
                     <div class="mb-3">
                         <label for="nombre" class="form-label">Nombre</label>
                         <input type="text" class="form-control" id="nombre" required>
